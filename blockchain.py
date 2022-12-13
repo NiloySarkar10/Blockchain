@@ -4,8 +4,7 @@ genesis_block = {           # dummy block at the start of the blockchain
     'index': 0,
     'transactions': []
 } 
-blockchain = []
-blockchain.append(genesis_block)
+blockchain = [genesis_block]
 open_transactions = []
 owner = 'Niloy'
 
